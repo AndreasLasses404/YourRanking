@@ -16,6 +16,6 @@ namespace YourRanking.Data
         }
 
         public DbSet<Arena> Arenas { get; set; }
-        public DbSet<Matches> Matches { get; set; }
+        public DbSet<Match> Matches { get; set; }
     }
 }

@@ -11,6 +11,8 @@ namespace YourRanking.Models
         public bool IsReferee { get; set; }
         public int Rating { get; set; }
         public int Ranking { get; set; }
-        public List<Matches> Matches { get; set; }
+        public List<Match> Matches { get; set; }
+        public int Wins { get; set; }
+        public int Losses { get; set; }
     }
 }
